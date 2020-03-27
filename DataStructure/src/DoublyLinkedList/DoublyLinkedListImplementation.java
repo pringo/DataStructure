@@ -1,6 +1,7 @@
 package DoublyLinkedList;
 
 /**Doubly Linked List Implementation
+ * A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations.
  * This Doubly Linked List implementation covers below functionalities:
  * Insert an element in the list
  * Insert at specified position

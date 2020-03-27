@@ -1,13 +1,13 @@
 package Stack;
 
 /**Stack Implementation
- * Stack is a linear data structure which follows a particular order in which the operations are performed. 
+ * Stack is a linear data structure which follows a particular order in which the operations are performed.
  * The order may be LIFO(Last In First Out) or FILO(First In Last Out).
  * 
  * This Stack implementation covers below functionalities:(LIFO)
- * Insert an element in the stack
+ * Push an element in the stack
  * Peek an element in the stack
- * Delete an Element
+ * Pop an Element
  * display all elements in the stack
  *  
  * @author Elango
