@@ -68,8 +68,14 @@ public int pop()
 	}
 	else
 	{
-		temp=queue[len-1];
+		temp=queue[0];
+		
+		
+		for(int i=0;i<len;i++)
+			queue[i-1]=queue[i+1];
+		
 		queue[len-1]=-1;
+		
 		len=len-1;
 	}
 	
