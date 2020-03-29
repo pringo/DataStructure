@@ -71,8 +71,8 @@ public int pop()
 		temp=queue[0];
 		
 		
-		for(int i=0;i<len;i++)
-			queue[i-1]=queue[i+1];
+		for(int i=1;i<len;i++)
+			queue[i-1]=queue[i];
 		
 		queue[len-1]=-1;
 		
@@ -115,9 +115,11 @@ public static void main(String args[])
 	queue.push(10);
 	queue.display();
 	queue.push(11);
+	System.out.println(queue.pop());
 	queue.display();
 	System.out.println("Inserting an element in queue which is already full");
 	queue.push(12);
+	queue.display();
 	
 	
 }
